@@ -7,6 +7,7 @@ def count_words(subreddit, word_list, word_count=[], after=None):
     """
     Prints the count of the given words present in the title of the
     subreddit's hottest articles.
+    ahh
     """
 
     word_list = [word.lower() for word in word_list]
