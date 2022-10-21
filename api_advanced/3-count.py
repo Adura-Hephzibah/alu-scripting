@@ -45,7 +45,7 @@ def count_words(subreddit, word_list, word_count=[], after=None):
                     nary[word_list[i]] = (word_count[i] *
                                           word_list.count(word_list[i]))
 
-            for key, val in sorted(nary.items(), key=lambda x: (-x[1], x[0]), ):
+            for key, val in sorted(nary.items(), key=lambda x: (-x[1], x[0])):
                 if val:
                     print('{}: {}'.format(key, val))
 
